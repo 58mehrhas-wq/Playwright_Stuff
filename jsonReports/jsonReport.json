@@ -1,0 +1,132 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff",
+        "testIgnore": [],
+        "testMatch": [
+          "frames.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff",
+        "testIgnore": [],
+        "testMatch": [
+          "frames.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "safari",
+        "name": "safari",
+        "testDir": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff",
+        "testIgnore": [],
+        "testMatch": [
+          "frames.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff/playwright.config.ts",
+    "rootDir": "/Users/mehrdadfhassani/Documents/Source/Playwright_Stuff",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.32.3",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests/frames.test.ts",
+      "file": "tests/frames.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Interact with frames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 12325,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Number of frames: 16\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-06-30T20:32:10.014Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee77907c2abffffa1fe6-e058a674dc790ebca363",
+          "file": "tests/frames.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
